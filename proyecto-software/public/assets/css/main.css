@@ -1,0 +1,11 @@
+
+.btn.default.active{
+	color:white;
+	background-color:black;
+	border-color:black;
+}
+
+body{
+	background:url(../assets/css/fondo.jpg) no-repeat fixed center center #FFFFFF;
+	background-size:cover;
+}
