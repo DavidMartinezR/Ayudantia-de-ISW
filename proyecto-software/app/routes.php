@@ -30,6 +30,11 @@ Route::controller('/test','TestController');
 
 Route::controller('/ini','InicioController');
 
-//Route::controller('/contacto','InicioController');
+Route::get('/quienessomos',array('uses' => 'InicioController@getQuienessomos'));
+Route::controller('/index','InicioController');
+
+route::get ('contacto', array ('uses' => 'InicioController@getContacto'));
+route::get ('loggin', array ('uses' => 'InicioController@getLoggin'));
+route::get ('servicios', array ('uses' => 'InicioController@getServicios'));
 
 Route::controller("/","HomeController");
